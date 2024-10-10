@@ -37,9 +37,9 @@ METHOD /logs/{user_id}?beforeId=5&afterId=1&afterTime=1728591987242&beforeTime=1
 Пример запроса:
 
 ```shell
-curl -X GET --url "https://localhost:8080/logs"
-curl -X GET --url "https://localhost:8080/logs/123"
-curl -X GET --url "https://localhost:8080/logs/123?beforeId=5&afterId=1&afterTime=1728591987242&beforeTime=1728591987242"
+curl -X GET --url "http://localhost:8080/logs"
+curl -X GET --url "http://localhost:8080/logs/123"
+curl -X GET --url "http://localhost:8080/logs/123?beforeId=5&afterId=1&afterTime=1728591987242&beforeTime=1728591987242"
 ```
 
 Пример ответа:
@@ -50,7 +50,9 @@ curl -X GET --url "https://localhost:8080/logs/123?beforeId=5&afterId=1&afterTim
     "userId": 1,
     "userCommand": "/weather",
     "created_at": 192491294319,
-    "botResponse": "COMMAND_WEATHER_SUCCESSFUL"
+    "botResponse": "COMMAND_WEATHER_SUCCESSFUL",
+    "formatData": "10/10/2024",
+    "formatTime": "23:23:29"
   }
 ]
 ```

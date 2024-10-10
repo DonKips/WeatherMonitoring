@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57ff7936-7d76-42fc-a761-44cf7392c185" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/data/LogData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/data/LogData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/database/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/database/DatabaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/telegram/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/telegram/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/telegram/TelegramBotImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/telegram/TelegramBotImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/telegram/commands/WeatherCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/looks/weathermonitoring/telegram/commands/WeatherCommand.java" afterDir="false" />
-    </list>
+    <list default="true" id="57ff7936-7d76-42fc-a761-44cf7392c185" name="Changes" comment="Release" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +91,7 @@
       <updated>1728556220153</updated>
       <workItem from="1728556221170" duration="52000" />
       <workItem from="1728556276985" duration="17442000" />
-      <workItem from="1728574672348" duration="13864000" />
+      <workItem from="1728574672348" duration="14195000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -119,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728586881398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Release">
+      <option name="closed" value="true" />
+      <created>1728593169318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728593169318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Release" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release" />
   </component>
 </project>
