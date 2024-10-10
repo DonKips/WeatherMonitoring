@@ -10,6 +10,10 @@ git clone https://github.com/DonKips/WeatherMonitoring.git
 mvn install 
 mvn package
 ```
+### Запуск приложения:
+```
+Выполняется через класс me.looks.weathermonitoring.Main, через запуск метода public static void main(String[] args)
+```
 
 ## WeatherMonitoring Logs API
 
