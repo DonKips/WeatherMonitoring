@@ -5,6 +5,6 @@ WeatherMonitoring - приложение, содержащее телеграм-
 Компиляция:
 ```
 git clone 
-mvn install
+mvn installы
 mvn package
 ```
