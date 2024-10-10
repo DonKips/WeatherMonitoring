@@ -3,6 +3,8 @@ package me.looks.weathermonitoring.telegram;
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.UpdatesListener;
 import com.pengrad.telegrambot.model.Update;
+import com.pengrad.telegrambot.model.request.InlineKeyboardButton;
+import com.pengrad.telegrambot.model.request.InlineKeyboardMarkup;
 import com.pengrad.telegrambot.request.SendMessage;
 import me.looks.weathermonitoring.Loader;
 import me.looks.weathermonitoring.telegram.commands.IBotCommand;

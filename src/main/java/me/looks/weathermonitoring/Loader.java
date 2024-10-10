@@ -16,14 +16,15 @@ public class Loader {
     public Loader(String telegramBotToken, String openWeatherMapKey,
                   String databaseServiceHost, String databaseServiceDatabase, int databaseServicePort,
                   String databaseServiceUsername, String databaseServicePassword, String databaseServiceRules) {
-        telegramBot = new TelegramBotImpl(this, telegramBotToken);
-        telegramBot.registerListener();
 
         requestsService = new RequestsService();
         receivingGeocoding = new ReceivingGeocoding(this, openWeatherMapKey);
         receiveWeatherStatus = new ReceiveWeatherStatus(this, openWeatherMapKey);
         databaseService = new DatabaseService(databaseServiceHost, databaseServiceDatabase, databaseServicePort,
                 databaseServiceUsername, databaseServicePassword, databaseServiceRules);
+
+        telegramBot = new TelegramBotImpl(this, telegramBotToken);
+        telegramBot.registerListener();
     }
 
     public RequestsService getRequestsService() {

@@ -7,7 +7,6 @@ public enum Message {
     COMMAND_WEATHER_CITY_NOT_FOUND("Город указан неверно"),
     COMMAND_WEATHER_SUCCESSFUL("Погода в городе %city%:\n Температура: %temp%°C\n Ощущаемая температура: %feels_like%°C\n " +
             "Описание погоды: %weather%\n Влажность: %humidity%%\n Скорость ветра: %wind_speed% м/с"),
-    COMMAND_WEATHER_MANY_CITIES("Найдено много городов, выберите один из предложенных"),
     ;
     private final String message;
 
